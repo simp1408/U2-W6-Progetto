@@ -1,0 +1,28 @@
+@mixin square($size) {
+    width: $size;
+    height: $size;
+    
+}
+
+
+
+@mixin bannerStyle{
+    background-color: orangered;
+}
+@mixin bodyStyle{
+    background-color: rgb(165, 157, 157);
+   font-family: Fira Sans;
+    
+}
+
+@mixin buttonStyle{
+    background-color: orange;
+}
+
+@mixin navbarStyle{
+    background-color: orange;
+}
+@mixin title{
+    font-family: Fira Sans;
+}
+
